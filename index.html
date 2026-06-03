@@ -62,7 +62,7 @@
 
 	.header h1 {
 		font-family: var(--font-display);
-		font-size: 26px;
+		font-size: 28px;
 		font-weight: 400;
 		letter-spacing: 0.5px;
 		color: var(--text);
@@ -732,7 +732,6 @@
 			const header = document.createElement( 'div' );
 			header.className = 'cat-header';
 			header.innerHTML = `
-				<span class="cat-icon">${cat.icon}</span>
 				<span class="cat-title">${cat.title}</span>
 				<span class="cat-badge${catDone ? ' done' : ''}">${catChecked}/${items.length}</span>
 				<span class="cat-chevron${isOpen ? ' open' : ''}">▶</span>
